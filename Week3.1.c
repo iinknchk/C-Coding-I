@@ -11,7 +11,7 @@ int main()
         for (size_t i = 1; i <= boxsize; i++)
         {
 
-            if (( j <= i && j <= 2*n-i) || (j >= i && j >= 2*n-i))
+            if (( j <= i && j <= 2*n-i) || (j >= i && j >= 2n-i))
             {
                 printf("*");
             }
